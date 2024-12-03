@@ -42,17 +42,20 @@ age = int(input("나이를 숫자로 입력해주세요: "))
 pay = input("결제 방법을 입력해주세요. ('카드' 또는 '현금'만 입력): ")
 
 if age < 8 or age > 75 :
-    print(f"{age}세의 {pay}요금은 무료입니다.")
+    fare = "무료"
 if age < 14 :
-    print(f"{age}세의 {pay}요금은 450원 입니다.")
+    fare = 450
 elif age < 20 :
     if pay == "카드" :
-       print(f"{age}세의 {pay}요금은 720원 입니다.")
-    else :
-        print(f"{age}세의 {pay}요금은 1000원 입니다.")
+       fare = 720
 elif age < 75 :
     if pay == "카드" :
-        print(f"{age}세의 {pay}요금은 1200원 입니다.")
+       fare = 1200
     else :
-        print(f"{age}세의 {pay}요금은 1300원 입니다.")
+        fare = 1300
+
+        print(f"{age}세의 {pay}요금은 {fare}원 입니다.")
+
+
+
     
