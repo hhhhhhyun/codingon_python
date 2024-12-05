@@ -1,6 +1,6 @@
 #함수
 def f(x) :
-    result = x**2 +2*x + 1
+    result = x**2 +2*x + 1 #**: 제곱
     return result; 
 
 print(f(3))

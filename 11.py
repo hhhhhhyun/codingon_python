@@ -6,17 +6,16 @@ d = [
 ]
 
 print(d)
-print(d[0][0])
-print(d[1][1])
-d.append([70,80])
+print(d[0][0]) # 0열0행
+print(d[1][1]) # 1열1행
+d.append([70,80]) # .append 함수: 요소 추가
 print(d)
 d[0][0] = 90
 print(d)
 
-d[1].pop()
-#d[1].pop(1)
-print(d)
-#print(d[1][1])
+d[1].pop() #pop은 마지막 숫자를 꺼내고 없애는 도구
+print(d) 
+
 print(len(d))
 print(len(d[0]))
 
