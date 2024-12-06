@@ -1,6 +1,9 @@
-#실습4.
-def f(x) :
-    result = x**2 +2*x + 1 #**: 제곱
-    return result; 
-
-print(f(5))
+def solution(arr):
+    answer = []
+    for i in arr:
+        if i > 50 or i % 2 == 0 :
+            answer.append(i % 2)
+        else:
+            answer.append(i*2)
+    return answer 
+print
