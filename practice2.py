@@ -1,0 +1,12 @@
+#
+a = input("│ \_/ │")
+b = input("│ q p │  /")
+c = input("( 0 ), \"\"\"")
+d = input("\^\"'     │")
+e = input("││_/=\\_ _│")
+print(a,"\n")
+print(b,"\n")
+print(c,'\n')
+print(d,"\n")
+print(e)
+print()

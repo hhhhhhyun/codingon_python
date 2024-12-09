@@ -51,5 +51,10 @@ print(f't center : {t: 10}')
 print(f'center : {t: < 10}')
 print(f't center : {t : > 10}')
 
+n = 700
+print(type(n))
+print()
 
-
+m = 800
+n = 400
+print(id(m),id(n))

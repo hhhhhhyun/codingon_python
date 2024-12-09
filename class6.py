@@ -28,3 +28,11 @@ employee = [
 
 for i in employee :
     print(i)
+print()
+print()
+
+#아래 코드도 같이 알아두기
+#for i in employee:
+#    print(i)
+
+#print("\n". join(map(str, employee)))
