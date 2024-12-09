@@ -37,7 +37,7 @@ print(ex3)
 #rnqnsrlgh
 m = 1000000000000000000
 
-print(f'm : m:,')
+print(f'm : {m:,}')
 print()
 print()
 
@@ -50,4 +50,6 @@ print(f't : {t: ^10}')
 print(f't center : {t: 10}')
 print(f'center : {t: < 10}')
 print(f't center : {t : > 10}')
+
+
 

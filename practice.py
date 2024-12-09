@@ -1,11 +1,13 @@
-def solution(arr, divisor):
-    answer = []
-    for i in arr :
-        if i %  divisor == 0 :
-            answer.append(i)
-            answer.sort()
-    if len(answer) == 0 :
-        answer .append(-1)
-    
-    return answer
-            
+class MyAdd :
+    __a = 1
+    __b = 2
+
+    def sum(self):
+        return self .__a + self .__b
+    def set_a(self, a):
+        self.__a = a
+
+a = MyAdd()
+print(a.sum())
+a.set_a(3)
+print(a.sum())
