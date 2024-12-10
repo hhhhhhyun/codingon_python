@@ -58,3 +58,16 @@ print()
 m = 800
 n = 400
 print(id(m),id(n))
+
+# 예약어는 변수명으로 불가능
+"""
+False	def	if	raise
+None	del	import	return
+True	elif	in	try
+and	else	is	while
+as	except	lambda	with
+assert	finally	nonlocal	yield
+break	for	not	
+class	from	or	
+continue	global	pass	
+"""
