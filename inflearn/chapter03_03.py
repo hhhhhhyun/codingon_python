@@ -63,3 +63,5 @@ print()
 
 #
 print('a - ',a)
+append #끝에 추가
+inserv #사이에 추가
